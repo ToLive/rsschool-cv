@@ -35,7 +35,8 @@ eight(minus(three())); // must return 5
 six(dividedBy(two())); // must return 3
 ```
 Solution:
-```function zero(value) { return !value ? 0 : value(0) }
+```
+function zero(value) { return !value ? 0 : value(0) }
 function one(value) { return !value ? 1 : value(1) }
 function two(value) { return !value ? 2 : value(2) }
 function three(value) { return !value ? 3 : value(3) }
